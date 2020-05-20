@@ -9,7 +9,7 @@ pipeline {
 
     stage('Shell Script') {
       steps {
-        sh 'mvn -Dmaven.test.failure.ignore=true clean packag'
+        sh 'mvn -Dmaven.test.failure.ignore=true clean package'
       }
     }
 
